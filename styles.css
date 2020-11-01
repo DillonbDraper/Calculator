@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 50vh
+}
+
+.row-one {
+    flex-basis: 100%;
+}
+
+.row-two {
+    flex-basis: 20%
+}
+
+.row-three {
+    flex-basis: 20%;
+}
+
+.row-four {
+    flex-basis: 20%;
+}
+
+.row-five {
+    flex-basis: 20%;
+}
+
+.btn {
+    margin: 1%
+}
