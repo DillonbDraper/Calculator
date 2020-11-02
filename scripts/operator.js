@@ -14,3 +14,11 @@ export const operate = (operator, a, b) => {
         return "Something went very wrong"
     }
 }
+
+export const square = (a) => {
+    return a * a
+}
+
+export const sqRoot = (a) => {
+    return Math.sqrt(a)
+}

@@ -14,7 +14,7 @@ export const runCalculator = () => {
             return value
         }
     })
-    console.log(arrayToEval)
+
     if (arrayToEval.length === 3) {
         let operator = arrayToEval[1]
 
@@ -22,7 +22,6 @@ export const runCalculator = () => {
     } else if (arrayToEval.length > 3) {
         let workingValue = operate(arrayToEval[1], arrayToEval[0], arrayToEval[2])
         arrayToEval.splice(0, 3)
-        console.log(arrayToEval)
         workingValue = operate(arrayToEval[0], workingValue, arrayToEval[1])
         while (arrayToEval.length > 3) {
             arrayToEval.splice(0, 2)
