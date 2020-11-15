@@ -1,17 +1,37 @@
 .container {
     display: flex;
-    height: 100vh;
+    justify-content: center
+}
+
+.calculator {
+    display: flex;
+    height: 85vh;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    width: 50vh
+    width: 50vh;
+    border: 2px solid black;
+    padding: 1em;
+    background-color: silver
 }
 
 .row-one {
     flex-basis: 100%;
+    margin-bottom: 0%;
+    height: 7vh;
+    border: 3px solid #2b2b2b;
+    font-size: 2em;
+}
+
+.my-buttons {
+    flex-basis: 20%;
+    font-size: 2em;
+    font-weight: 500;
+    border: 2px solid #2b2b2b
 }
 
 .row-two {
+    margin-top: 0px;
     flex-basis: 20%
 }
 
@@ -29,4 +49,8 @@
 
 .btn {
     margin: 1%
+}
+
+.btn-info {
+    font-size: 2em;
 }
